@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('127.0.0.1','root','','signup');
+$connection = mysqli_connect('localhost:3360','root','','signup');
 if (!$connection){
     die("server connection Failed" .mysqli_error($connection));
 }
